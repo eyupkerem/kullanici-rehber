@@ -1,0 +1,47 @@
+.group-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    height: auto;
+}
+.group-list{
+    margin-left: -5px;
+    width: 40%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 35px;
+}
+.list-group{
+    margin-left: -115px;
+}
+.group-add{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+    padding: 50px;
+    
+}
+.list-group-item{
+    width: 175%;
+    display: flex;
+    justify-content: space-between;
+}
+.savebtn{
+    margin-top: 13px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+
+}
+.deletebtn {
+    float: right;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+}

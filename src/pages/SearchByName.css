@@ -1,0 +1,11 @@
+.input-box{
+    justify-content: center;
+    margin-left: 40rem;
+}
+.input-box-label{
+    margin-left: -20px;
+}
+.no-users-message{
+    text-align: center;
+    font-size: 35px;
+}

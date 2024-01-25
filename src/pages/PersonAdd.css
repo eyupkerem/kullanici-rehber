@@ -1,0 +1,40 @@
+.add-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .add-container h2{
+    margin-top: 1.5rem;
+  }
+  
+  .input-areas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-top: 2rem;
+
+  } 
+
+  .input-areas input {
+    border-radius: 5rem;
+    width: 200px;
+    padding: 8px;
+  }
+  .save-btn{
+    margin: 3.5rem 0 ;
+    border-radius: 5rem;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    margin: 20px;
+    padding: 15px;
+    text-decoration: none;
+  }
+.save-btn:hover{
+  font-size: x-large;
+}
+.input-container {
+  margin-bottom: 15px; 
+}
